@@ -33,8 +33,12 @@ export default function GameLayout({
 
         <p>{subtitle}</p>
 
-        <div className="game-content">
-          {children}
+        <div
+  className="game-content"
+  style={{
+    overflow: "hidden",
+  }}
+>
         </div>
 
       </div>
